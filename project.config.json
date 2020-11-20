@@ -1,10 +1,12 @@
 {
   "description": "项目配置文件",
+  "cloudfunctionRoot": "cloud/",
   "packOptions": {
     "ignore": []
   },
+  "miniprogramRoot": "src/",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -37,9 +39,9 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.0.4",
+  "libVersion": "2.13.2",
   "appid": "wx4895fb9ca57b9087",
-  "projectname": "test",
+  "projectname": "云开发",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -47,6 +49,7 @@
   "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []

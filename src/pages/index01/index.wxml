@@ -1,0 +1,11 @@
+<view>
+  <input type="text" placeholder="输入用户名" model:value="{{name}}"></input>
+  <input type="number" placeholder="输入年龄" model:value="{{age}}"></input>
+  <button bindtap="addData">添加</button>
+  <button bindtap="getData">查询</button>
+  <input type="text" placeholder="需要删除的数据id" model:value="{{id}}"></input>
+  <button bindtap="delData">删除</button>
+  <input type="text" placeholder="需要要更新的数据id" model:value="{{id}}"></input>
+  <input type="number" placeholder="输入更新后的年龄" model:value="{{age}}"></input>
+  <button bindtap="upData">更新年龄</button>
+</view>
